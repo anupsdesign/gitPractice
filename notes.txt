@@ -1,0 +1,29 @@
+==============
+   N O T E S 
+==============
+
+Concepts of git:-
+
+- keeps track of code history
+- takes "snapshots" of the files
+- decide when to take a snapshot by making a "commit"
+- visit any snapshot any time
+- stage files before committing 
+
+Basic commands:-
+
+$ git init : will initialize local git repository. It will create a .git folder in the project that will stay hidden.
+
+$ git add <file> : adds file(s) to the staging area or the index.
+
+$ git status : to see what we have in the staging area and ready for commit. This will display differences between the working tree.
+
+$ git commit : when ready we can commit the file(s). This will take everything in the index and put it into the local repository
+
+Remote repository commands:-
+
+$ git push : transfer local branch commits to the remote repository branch (such as Github)
+
+$ git pull : fetch and merge any commits from the tracking remote branch. Downloading latest changes from the remote repository. 
+
+$ git clone : retrieve an entire repository from a hosted location via URL. This will copy a remote repository into the current folder. 
